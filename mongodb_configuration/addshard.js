@@ -1,0 +1,1 @@
+db.runCommand({addShard: 'secondset/master:10101,master:10102,master:10103'})

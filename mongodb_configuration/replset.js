@@ -1,0 +1,1 @@
+db.runCommand({'replSetInitiate': {'_id': 'secondset', 'members': [{'host': 'master:10101', '_id': 1}, {'host': 'master:10102', '_id': 2}, {'host': 'master:10103', '_id': 3}]}})
